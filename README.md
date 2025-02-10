@@ -28,34 +28,6 @@ Welcome to the **Brawl Stars Brawler Encyclopedia**! This project is a website t
 
 This website uses the [Brawlify API](https://brawlapi.com/#/) to get real-time data for Brawlers.
 
-## How to Use
-
-1. Clone or download the repository to your local machine:
-    ```bash
-    git clone https://github.com/yourusername/bsbe.git
-    ```
-
-2. Open the `index.html` file in your browser to start using the Brawler Encyclopedia.
-
-3. Use the **Filter** dropdown to filter Brawlers by rarity and the **Search** bar to search for specific Brawlers.
-
-4. Click on a Brawler's **Detail** button to view detailed information, including their Star Powers and Gadgets.
-
-## Installation
-
-There is no installation required to use the website locally. Just open the `index.html` file in any modern web browser.
-
-However, if you want to make modifications, you can follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/bsbe.git
-    ```
-
-2. Install dependencies (if any) and make changes as necessary.
-
-3. Open the `index.html` file in your browser to see changes in real-time.
-
 ## Contributing
 
 1. Fork this repository.
