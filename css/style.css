@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+   font-family: "Poppins", serif;
+}
+
+.navbar-nav .nav-link:hover {
+   color: #fff !important;
+}
+
+div.header {
+   margin-top: 6rem;
+}
+
+#back-to-top {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   display: none;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   font-size: 24px;
+   text-align: center;
+   cursor: pointer;
+   z-index: 1000;
+}
+
+.skeleton {
+   background-color: #ddd;
+   border-radius: 4px;
+   animation: pulse 1.5s infinite;
+}
+
+.skeleton-img {
+   width: 100%;
+   height: 150px;
+}
+
+.skeleton-text {
+   width: 80%;
+   height: 15px;
+   margin: 10px auto;
+}
+
+.skeleton-button {
+   width: 60%;
+   height: 30px;
+   margin: 10px auto;
+}
+
+@keyframes pulse {
+   0% {
+      opacity: 0.6;
+   }
+   50% {
+      opacity: 1;
+   }
+   100% {
+      opacity: 0.6;
+   }
+}
+
+.fade-in {
+   opacity: 0;
+   animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
